@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FACE RECOGNITION WEB APP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body onload="music()">
+        <audio id="audio" src="Simplicity.mp3"></audio>
+        <header class="text-capitalize">face recognition web app</header>
+        <br>
+        <hr>
+        <br>
+        <h2 class="text-capitalize btn btn-warning text-danger" id="text2">This Model Is Trained To Identify The Following Family Members:-</h2>
+        <br><br>
+        <label class="labels">Father</label>
+        <br><br>
+        <label class="labels">Mother</label>
+        <br><br>
+        <label class="labels">Brother</label>
+        <br><br>
+        <label class="labels">Sister</label>
+        <br>
+        <br>
+        <br>
+        <label id="l1">Webcam View:-</label>
+        <div id="live"></div>
+        <div id="cap"></div>
+        <br>
+        <button id="cap_btn" onclick="cap()">Capture The Image</button>
+        <br>
+        <button id="ide_btn" onclick="check()">Identify The Image</button>
+        <br>
+        <br>
+        <h3>Object: <span id="obj"></span></h3>
+        <h3>Accuracy: <span id="acc"></span></h3>
+        <script src="main.js"></script>
+    </body>
+</html>

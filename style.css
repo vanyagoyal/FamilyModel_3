@@ -1,0 +1,73 @@
+body {
+    background-color: blue;
+    text-align: center;
+    border:10px solid pink;
+}
+header {
+    color:aqua;
+    font-size:60px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+#text2 {
+    color:darkmagenta;
+    font-size:25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: 5px underline aquamarine;
+}
+.labels {
+    color:brown;
+    font-size:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    width:28%;
+    height:50px;
+    border:5px outset cyan;
+    background-color:lightsalmon;
+}
+#l1 {
+    color:rgb(192, 252, 192);
+    font-size:20px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+#live {
+    border:dashed 5px lavenderblush;
+    width:450px;
+    height:400px;
+    margin-left:35%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+#cap{
+    border:solid 5px lavenderblush;
+    width:450px;
+    height:400px;
+    margin-left:35%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+#cap_btn {
+    color:rgb(255, 93, 93);
+    background-color:springgreen;
+    font-size:20px;
+    font-family: 'Lobster', cursive;
+    font-weight:500;
+    border: 5px solid yellow;
+    height:50px;
+    margin-bottom:20px;
+}
+#ide_btn {
+    color:navy;
+    background-color:yellow;
+    font-size:20px;
+    font-family: 'Lobster', cursive;
+    font-weight:500;
+    border: 5px solid springgreen;
+    height:50px;
+    margin-bottom:20px;
+}
+h3 {
+    color:lightgreen;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:500;
+    font-size:25px;
+}
